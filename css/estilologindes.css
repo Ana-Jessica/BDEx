@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montserratalt;
+    src: url(/fontes/MontserratAlternates-Regular.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +10,7 @@
 }
 
 body {
-    font-family: ;
+    font-family: montserratalt;
     display: flex;
     align-items: center;
     justify-content: center;
