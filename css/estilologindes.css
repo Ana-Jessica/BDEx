@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+    background-image: url(images/imgssite/);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    color: white;
+}
+
+.voltar {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    left: 50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #E02130;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .2s linear;
+    z-index: 99;
+}
+
+.voltar:hover {
+    box-shadow: 0 0 24px #2B5166;
+}
+
+.pacote {
+
+    backdrop-filter: blur(30px);
+    padding: 20px;
+    border-radius: 30px;
+    width: 420px;
+}
+
+.pacote h1 {
+    text-align: center;
+}
+
+
+
+.pacote .box-input {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: 20px 0;
+}
+
+.box-input input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-radius: 30px;
+    color: white;
+    outline: none;
+    padding: 20px 45px 20px 20px;
+    border: 2px solid white;
+}
+
+input::placeholder {
+    color: rgb(189, 189, 189);
+}
+
+.box-input i {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+
+
+.pacote .lembrar-esqueci {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.lembrar-esqueci a {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+}
+
+.lembrar-esqueci label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background: #429867;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    border: none;
+}
+
+button:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+.criar a {
+    color: #FAB243;
+}

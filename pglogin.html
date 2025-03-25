@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="/css/estilologindes.css" />
+    <title>pagina de Login Desenvolvedor</title>
+  </head>
+  <body>
+    <div class="pacote">
+      <form action="">
+        <img
+          width="300px"
+          height="150px"
+          style="object-fit: contain; float: left"
+          src="/imgs/bdexsemfundo.png"
+          alt=""
+        />
+        <h1>Login Desenvolvedores</h1>
+        <div class="box-input">
+          <input type="text" placeholder="entre com seu email" required />
+          <i class="bi bi-person-circle"></i>
+        </div>
+        <div class="box-input">
+          <input
+            id="inppass"
+            type="password"
+            placeholder="entre com sua senha"
+            required
+          />
+          <i id="iconeye" class="bi bi-eye-slash" onclick="mudarsenha()"></i>
+        </div>
+        <br />
+        <br />
+        <div class="lembrar-esqueci">
+          <label for=""> <input type="checkbox" />Lembrar</label>
+          <a href="#">esqueci a senha</a>
+        </div>
+        <button>Entrar</button>
+        <br />
+        <br />
+        <div class="criar">
+          <p>voce ainda não possui uma conta?<a href="#">criar_conta</a></p>
+        </div>
+      </form>
+    </div>
+    <img
+      width="500px"
+      height="500px"
+      style="object-fit: contain"
+      src="/imgs/contract.png"
+      alt=""
+    />
+    <script src="../scripts/mudar.js"></script>
+  </body>
+</html>
