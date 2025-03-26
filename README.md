@@ -1,5 +1,5 @@
 ﻿# Laboratorio-3
-# BDeX - Beginner Dev Experience
+# BDEx - Beginner Dev Experience
 ![LOGO_BDEx](https://github.com/user-attachments/assets/1e0764d1-0e2f-4919-967b-ef6c955ce3a6)
 
 ## Sobre o Projeto
