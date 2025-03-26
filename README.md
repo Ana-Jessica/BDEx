@@ -1,5 +1,6 @@
 ﻿# Laboratorio-3
 # BDeX - Beginner Dev Experience
+![LOGO_BDEx](https://github.com/user-attachments/assets/1e0764d1-0e2f-4919-967b-ef6c955ce3a6)
 
 ## Sobre o Projeto
 O **BDeX - Beginner Dev Experience** é uma plataforma digital inovadora que conecta programadores iniciantes a empresas que necessitam de soluções tecnológicas. O objetivo principal é proporcionar experiência prática para desenvolvedores em início de carreira, permitindo que trabalhem em projetos reais, ganhem portfólio e aumentem suas chances de empregabilidade.
@@ -29,10 +30,9 @@ Ser a principal plataforma de intermediação entre novos programadores e empres
 - **Estrutura de Custos:** Hospedagem, desenvolvimento, marketing e suporte.
 
 ## Tecnologias Utilizadas
-- **Front-end:** [Especificar tecnologias utilizadas]
-- **Back-end:** [Especificar tecnologias utilizadas]
-- **Banco de Dados:** [Especificar tecnologias utilizadas]
-- **Hospedagem:** [Especificar tecnologias utilizadas]
+- **Front-end:** HTML/CSS/JS
+- **Back-end:** PHP
+- **Banco de Dados:** MySQL
 
 ## Como Contribuir
 1. Faça um fork do repositório.
@@ -50,6 +50,5 @@ Ser a principal plataforma de intermediação entre novos programadores e empres
   - Ubiratã Rodrigues
 - **Professor Orientador:** MSc. Edilberto M Silva - [prof.edilberto.silva@gmail.com](mailto:prof.edilberto.silva@gmail.com)
 
-## Licença
-Este projeto está sob a licença [especificar licença].
+
 
