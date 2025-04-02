@@ -19,6 +19,7 @@ a{
 body{
     padding: 2%;
     background-image: url(/imgs/fundo_completo.png);
+    background-size: cover;
     position: fixed;
 }
 .nav {
@@ -51,7 +52,7 @@ body{
     background-color: white;
     margin: 0 auto;
     width: 96vw;
-    max-height: 90vh;
+    height: 90vh;
     border-radius: 20px;
     color: aliceblue;
     overflow: hidden;
